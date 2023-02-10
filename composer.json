@@ -1,0 +1,16 @@
+{
+    "name": "saerp/nfelondrina",
+    "description": "Package generated from http://testeiss.londrina.pr.gov.br/ws/v1_03/sigiss_ws.php?wsdl  using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src/"
+        }
+    }
+}
