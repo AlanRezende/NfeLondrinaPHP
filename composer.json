@@ -1,5 +1,5 @@
 {
-    "name": "saerp/nfelondrina",
+    "name": "alanrezende/php-nfse-londrina",
     "description": "Package generated from http://testeiss.londrina.pr.gov.br/ws/v1_03/sigiss_ws.php?wsdl  using wsdltophp/packagegenerator",
     "require": {
         "php": ">=7.4",
