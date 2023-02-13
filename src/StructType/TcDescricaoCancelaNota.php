@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -108,7 +108,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set ccm value
      * @param int $ccm
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setCcm(int $ccm): self
     {
@@ -131,7 +131,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set cnpj value
      * @param string $cnpj
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setCnpj(string $cnpj): self
     {
@@ -154,7 +154,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set cpf value
      * @param string $cpf
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setCpf(string $cpf): self
     {
@@ -177,7 +177,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set senha value
      * @param string $senha
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setSenha(string $senha): self
     {
@@ -200,7 +200,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set nota value
      * @param int $nota
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setNota(int $nota): self
     {
@@ -223,7 +223,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set cod_cancelamento value
      * @param int $cod_cancelamento
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setCod_cancelamento(int $cod_cancelamento): self
     {
@@ -246,7 +246,7 @@ class TcDescricaoCancelaNota extends AbstractStructBase
     /**
      * Set email value
      * @param string $email
-     * @return \StructType\TcDescricaoCancelaNota
+     * @return \NfseLondrina\StructType\TcDescricaoCancelaNota
      */
     public function setEmail(string $email): self
     {

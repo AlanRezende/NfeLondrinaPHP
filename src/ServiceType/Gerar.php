@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ServiceType;
+namespace NfseLondrina\ServiceType;
 
 use SoapFault;
 use WsdlToPhp\PackageBase\AbstractSoapClientBase;
@@ -20,10 +20,10 @@ class Gerar extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \StructType\TcDescricaoRps $descricaoRps
+     * @param \NfseLondrina\StructType\TcDescricaoRps $descricaoRps
      * @return array|bool
      */
-    public function GerarNota(\StructType\TcDescricaoRps $descricaoRps)
+    public function GerarNota(\NfseLondrina\StructType\TcDescricaoRps $descricaoRps)
     {
         try {
             $this->setResult($resultGerarNota = $this->getSoapClient()->__soapCall('GerarNota', [

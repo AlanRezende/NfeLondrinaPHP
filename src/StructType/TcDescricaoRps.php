@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -581,7 +581,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set ccm value
      * @param int $ccm
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCcm(int $ccm): self
     {
@@ -604,7 +604,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cnpj value
      * @param string $cnpj
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCnpj(string $cnpj): self
     {
@@ -627,7 +627,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cpf value
      * @param string $cpf
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCpf(string $cpf): self
     {
@@ -650,7 +650,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set senha value
      * @param string $senha
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setSenha(string $senha): self
     {
@@ -673,7 +673,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set aliquota value
      * @param string $aliquota
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setAliquota(string $aliquota): self
     {
@@ -696,7 +696,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set servico value
      * @param int $servico
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setServico(int $servico): self
     {
@@ -719,7 +719,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set situacao value
      * @param string $situacao
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setSituacao(string $situacao): self
     {
@@ -742,7 +742,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set valor value
      * @param string $valor
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setValor(string $valor): self
     {
@@ -765,7 +765,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set base value
      * @param string $base
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setBase(string $base): self
     {
@@ -788,7 +788,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set ir value
      * @param string $ir
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setIr(?string $ir = null): self
     {
@@ -811,7 +811,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set pis value
      * @param string|null $pis
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setPis(?string $pis = null): self
     {
@@ -834,7 +834,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cofins value
      * @param string $cofins
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCofins(?string $cofins = null): self
     {
@@ -857,7 +857,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set csll value
      * @param string $csll
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCsll(?string $csll = null): self
     {
@@ -880,7 +880,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set inss value
      * @param string $inss
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setInss(?string $inss = null): self
     {
@@ -903,7 +903,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set retencao_iss value
      * @param string $retencao_iss
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRetencao_iss(?string $retencao_iss = null): self
     {
@@ -926,7 +926,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set descricaoNF value
      * @param string $descricaoNF
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setDescricaoNF(string $descricaoNF): self
     {
@@ -949,7 +949,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_tipo value
      * @param int $tomador_tipo
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_tipo(int $tomador_tipo): self
     {
@@ -972,7 +972,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_cnpj value
      * @param string $tomador_cnpj
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_cnpj(string $tomador_cnpj): self
     {
@@ -995,7 +995,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_email value
      * @param string $tomador_email
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_email(?string $tomador_email = null): self
     {
@@ -1018,7 +1018,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_ie value
      * @param string $tomador_ie
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_ie(?string $tomador_ie = null): self
     {
@@ -1041,7 +1041,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_im value
      * @param string $tomador_im
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_im(?string $tomador_im = null): self
     {
@@ -1064,7 +1064,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_razao value
      * @param string $tomador_razao
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_razao(string $tomador_razao): self
     {
@@ -1087,7 +1087,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_endereco value
      * @param string $tomador_endereco
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_endereco(string $tomador_endereco): self
     {
@@ -1110,7 +1110,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_numero value
      * @param string $tomador_numero
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_numero(string $tomador_numero): self
     {
@@ -1133,7 +1133,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_complemento value
      * @param string $tomador_complemento
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_complemento(string $tomador_complemento): self
     {
@@ -1156,7 +1156,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_bairro value
      * @param string $tomador_bairro
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_bairro(string $tomador_bairro): self
     {
@@ -1179,7 +1179,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_CEP value
      * @param string $tomador_CEP
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_CEP(string $tomador_CEP): self
     {
@@ -1202,7 +1202,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_cod_cidade value
      * @param string $tomador_cod_cidade
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_cod_cidade(string $tomador_cod_cidade): self
     {
@@ -1225,7 +1225,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_fone value
      * @param string $tomador_fone
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_fone(?string $tomador_fone = null): self
     {
@@ -1248,7 +1248,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_ramal value
      * @param string $tomador_ramal
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_ramal(?string $tomador_ramal = null): self
     {
@@ -1271,7 +1271,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set tomador_fax value
      * @param string $tomador_fax
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setTomador_fax(?string $tomador_fax = null): self
     {
@@ -1294,7 +1294,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set codigo_obra value
      * @param string $codigo_obra
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCodigo_obra(?string $codigo_obra = null): self
     {
@@ -1317,7 +1317,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_art value
      * @param string $obra_art
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_art(?string $obra_art = null): self
     {
@@ -1340,7 +1340,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set incentivo_fiscal value
      * @param int $incentivo_fiscal
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setIncentivo_fiscal(?int $incentivo_fiscal = null): self
     {
@@ -1363,7 +1363,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cod_municipio_prestacao_servico value
      * @param string $cod_municipio_prestacao_servico
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCod_municipio_prestacao_servico(?string $cod_municipio_prestacao_servico = null): self
     {
@@ -1386,7 +1386,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cod_pais_prestacao_servico value
      * @param string $cod_pais_prestacao_servico
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCod_pais_prestacao_servico(?string $cod_pais_prestacao_servico = null): self
     {
@@ -1409,7 +1409,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set cod_municipio_incidencia value
      * @param string $cod_municipio_incidencia
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setCod_municipio_incidencia(?string $cod_municipio_incidencia = null): self
     {
@@ -1432,7 +1432,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_num value
      * @param int $rps_num
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_num(?int $rps_num = null): self
     {
@@ -1455,7 +1455,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_serie value
      * @param string $rps_serie
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_serie(?string $rps_serie = null): self
     {
@@ -1478,7 +1478,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_tipo value
      * @param int $rps_tipo
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_tipo(?int $rps_tipo = null): self
     {
@@ -1501,7 +1501,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_dia value
      * @param int $rps_dia
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_dia(?int $rps_dia = null): self
     {
@@ -1524,7 +1524,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_mes value
      * @param int $rps_mes
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_mes(?int $rps_mes = null): self
     {
@@ -1547,7 +1547,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_ano value
      * @param int $rps_ano
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_ano(?int $rps_ano = null): self
     {
@@ -1570,7 +1570,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set nfse_substituida value
      * @param int $nfse_substituida
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setNfse_substituida(?int $nfse_substituida = null): self
     {
@@ -1593,7 +1593,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set rps_substituido value
      * @param int $rps_substituido
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setRps_substituido(?int $rps_substituido = null): self
     {
@@ -1616,7 +1616,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_alvara_numero value
      * @param int $obra_alvara_numero
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_alvara_numero(?int $obra_alvara_numero = null): self
     {
@@ -1639,7 +1639,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_alvara_ano value
      * @param int $obra_alvara_ano
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_alvara_ano(?int $obra_alvara_ano = null): self
     {
@@ -1662,7 +1662,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_local_lote value
      * @param string $obra_local_lote
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_local_lote(?string $obra_local_lote = null): self
     {
@@ -1685,7 +1685,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_local_quadra value
      * @param string $obra_local_quadra
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_local_quadra(?string $obra_local_quadra = null): self
     {
@@ -1708,7 +1708,7 @@ class TcDescricaoRps extends AbstractStructBase
     /**
      * Set obra_local_bairro value
      * @param string $obra_local_bairro
-     * @return \StructType\TcDescricaoRps
+     * @return \NfseLondrina\StructType\TcDescricaoRps
      */
     public function setObra_local_bairro(?string $obra_local_bairro = null): self
     {

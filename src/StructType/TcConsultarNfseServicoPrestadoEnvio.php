@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -86,7 +86,7 @@ class TcConsultarNfseServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set ccm value
      * @param int $ccm
-     * @return \StructType\TcConsultarNfseServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio
      */
     public function setCcm(int $ccm): self
     {
@@ -109,7 +109,7 @@ class TcConsultarNfseServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set cnpj value
      * @param string $cnpj
-     * @return \StructType\TcConsultarNfseServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio
      */
     public function setCnpj(string $cnpj): self
     {
@@ -132,7 +132,7 @@ class TcConsultarNfseServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set cpf value
      * @param string $cpf
-     * @return \StructType\TcConsultarNfseServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio
      */
     public function setCpf(string $cpf): self
     {
@@ -155,7 +155,7 @@ class TcConsultarNfseServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set senha value
      * @param string $senha
-     * @return \StructType\TcConsultarNfseServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio
      */
     public function setSenha(string $senha): self
     {
@@ -178,7 +178,7 @@ class TcConsultarNfseServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set numero_nfse value
      * @param int $numero_nfse
-     * @return \StructType\TcConsultarNfseServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio
      */
     public function setNumero_nfse(int $numero_nfse): self
     {

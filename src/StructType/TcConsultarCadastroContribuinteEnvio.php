@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -86,7 +86,7 @@ class TcConsultarCadastroContribuinteEnvio extends AbstractStructBase
     /**
      * Set ccm value
      * @param int $ccm
-     * @return \StructType\TcConsultarCadastroContribuinteEnvio
+     * @return \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio
      */
     public function setCcm(int $ccm): self
     {
@@ -109,7 +109,7 @@ class TcConsultarCadastroContribuinteEnvio extends AbstractStructBase
     /**
      * Set cnpj value
      * @param string $cnpj
-     * @return \StructType\TcConsultarCadastroContribuinteEnvio
+     * @return \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio
      */
     public function setCnpj(string $cnpj): self
     {
@@ -132,7 +132,7 @@ class TcConsultarCadastroContribuinteEnvio extends AbstractStructBase
     /**
      * Set cpf value
      * @param string $cpf
-     * @return \StructType\TcConsultarCadastroContribuinteEnvio
+     * @return \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio
      */
     public function setCpf(string $cpf): self
     {
@@ -155,7 +155,7 @@ class TcConsultarCadastroContribuinteEnvio extends AbstractStructBase
     /**
      * Set senha value
      * @param string $senha
-     * @return \StructType\TcConsultarCadastroContribuinteEnvio
+     * @return \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio
      */
     public function setSenha(string $senha): self
     {
@@ -178,7 +178,7 @@ class TcConsultarCadastroContribuinteEnvio extends AbstractStructBase
     /**
      * Set cnpj_cpf_cadastro value
      * @param string $cnpj_cpf_cadastro
-     * @return \StructType\TcConsultarCadastroContribuinteEnvio
+     * @return \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio
      */
     public function setCnpj_cpf_cadastro(string $cnpj_cpf_cadastro): self
     {

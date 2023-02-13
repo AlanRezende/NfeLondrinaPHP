@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ServiceType;
+namespace NfseLondrina\ServiceType;
 
 use SoapFault;
 use WsdlToPhp\PackageBase\AbstractSoapClientBase;
@@ -20,10 +20,10 @@ class Consultar extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \StructType\TcConsultarNfseServicoPrestadoEnvio $consultarNfseServicoPrestadoEnvio
+     * @param \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio $consultarNfseServicoPrestadoEnvio
      * @return array|bool
      */
-    public function ConsultarNfseServicoPrestado(\StructType\TcConsultarNfseServicoPrestadoEnvio $consultarNfseServicoPrestadoEnvio)
+    public function ConsultarNfseServicoPrestado(\NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio $consultarNfseServicoPrestadoEnvio)
     {
         try {
             $this->setResult($resultConsultarNfseServicoPrestado = $this->getSoapClient()->__soapCall('ConsultarNfseServicoPrestado', [
@@ -44,10 +44,10 @@ class Consultar extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \StructType\TcConsultarRpsServicoPrestadoEnvio $consultarRpsServicoPrestadoEnvio
+     * @param \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio $consultarRpsServicoPrestadoEnvio
      * @return array|bool
      */
-    public function ConsultarRpsServicoPrestado(\StructType\TcConsultarRpsServicoPrestadoEnvio $consultarRpsServicoPrestadoEnvio)
+    public function ConsultarRpsServicoPrestado(\NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio $consultarRpsServicoPrestadoEnvio)
     {
         try {
             $this->setResult($resultConsultarRpsServicoPrestado = $this->getSoapClient()->__soapCall('ConsultarRpsServicoPrestado', [
@@ -68,10 +68,10 @@ class Consultar extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \StructType\TcConsultarCadastroContribuinteEnvio $consultarCadastroContribuinteEnvio
+     * @param \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio $consultarCadastroContribuinteEnvio
      * @return array|bool
      */
-    public function ConsultarCadastroContribuinte(\StructType\TcConsultarCadastroContribuinteEnvio $consultarCadastroContribuinteEnvio)
+    public function ConsultarCadastroContribuinte(\NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio $consultarCadastroContribuinteEnvio)
     {
         try {
             $this->setResult($resultConsultarCadastroContribuinte = $this->getSoapClient()->__soapCall('ConsultarCadastroContribuinte', [

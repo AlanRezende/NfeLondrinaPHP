@@ -24,11 +24,11 @@ $options = [
 /**
  * Samples for Gerar ServiceType
  */
-$gerar = new \ServiceType\Gerar($options);
+$gerar = new \NfseLondrina\ServiceType\Gerar($options);
 /**
  * Sample call for GerarNota operation/method
  */
-if ($gerar->GerarNota(new \StructType\TcDescricaoRps()) !== false) {
+if ($gerar->GerarNota(new \NfseLondrina\StructType\TcDescricaoRps()) !== false) {
     print_r($gerar->getResult());
 } else {
     print_r($gerar->getLastError());
@@ -36,11 +36,11 @@ if ($gerar->GerarNota(new \StructType\TcDescricaoRps()) !== false) {
 /**
  * Samples for Cancelar ServiceType
  */
-$cancelar = new \ServiceType\Cancelar($options);
+$cancelar = new \NfseLondrina\ServiceType\Cancelar($options);
 /**
  * Sample call for CancelarNota operation/method
  */
-if ($cancelar->CancelarNota(new \StructType\TcDescricaoCancelaNota()) !== false) {
+if ($cancelar->CancelarNota(new \NfseLondrina\StructType\TcDescricaoCancelaNota()) !== false) {
     print_r($cancelar->getResult());
 } else {
     print_r($cancelar->getLastError());
@@ -48,11 +48,11 @@ if ($cancelar->CancelarNota(new \StructType\TcDescricaoCancelaNota()) !== false)
 /**
  * Samples for Consultar ServiceType
  */
-$consultar = new \ServiceType\Consultar($options);
+$consultar = new \NfseLondrina\ServiceType\Consultar($options);
 /**
  * Sample call for ConsultarNfseServicoPrestado operation/method
  */
-if ($consultar->ConsultarNfseServicoPrestado(new \StructType\TcConsultarNfseServicoPrestadoEnvio()) !== false) {
+if ($consultar->ConsultarNfseServicoPrestado(new \NfseLondrina\StructType\TcConsultarNfseServicoPrestadoEnvio()) !== false) {
     print_r($consultar->getResult());
 } else {
     print_r($consultar->getLastError());
@@ -60,7 +60,7 @@ if ($consultar->ConsultarNfseServicoPrestado(new \StructType\TcConsultarNfseServ
 /**
  * Sample call for ConsultarRpsServicoPrestado operation/method
  */
-if ($consultar->ConsultarRpsServicoPrestado(new \StructType\TcConsultarRpsServicoPrestadoEnvio()) !== false) {
+if ($consultar->ConsultarRpsServicoPrestado(new \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio()) !== false) {
     print_r($consultar->getResult());
 } else {
     print_r($consultar->getLastError());
@@ -68,7 +68,7 @@ if ($consultar->ConsultarRpsServicoPrestado(new \StructType\TcConsultarRpsServic
 /**
  * Sample call for ConsultarCadastroContribuinte operation/method
  */
-if ($consultar->ConsultarCadastroContribuinte(new \StructType\TcConsultarCadastroContribuinteEnvio()) !== false) {
+if ($consultar->ConsultarCadastroContribuinte(new \NfseLondrina\StructType\TcConsultarCadastroContribuinteEnvio()) !== false) {
     print_r($consultar->getResult());
 } else {
     print_r($consultar->getLastError());

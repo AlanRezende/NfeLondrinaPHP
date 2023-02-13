@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -64,7 +64,7 @@ class TcEstruturaDescricaoErros extends AbstractStructBase
     /**
      * Set id value
      * @param string $id
-     * @return \StructType\TcEstruturaDescricaoErros
+     * @return \NfseLondrina\StructType\TcEstruturaDescricaoErros
      */
     public function setId(string $id): self
     {
@@ -87,7 +87,7 @@ class TcEstruturaDescricaoErros extends AbstractStructBase
     /**
      * Set DescricaoProcesso value
      * @param string $descricaoProcesso
-     * @return \StructType\TcEstruturaDescricaoErros
+     * @return \NfseLondrina\StructType\TcEstruturaDescricaoErros
      */
     public function setDescricaoProcesso(string $descricaoProcesso): self
     {
@@ -110,7 +110,7 @@ class TcEstruturaDescricaoErros extends AbstractStructBase
     /**
      * Set DescricaoErro value
      * @param string $descricaoErro
-     * @return \StructType\TcEstruturaDescricaoErros
+     * @return \NfseLondrina\StructType\TcEstruturaDescricaoErros
      */
     public function setDescricaoErro(string $descricaoErro): self
     {

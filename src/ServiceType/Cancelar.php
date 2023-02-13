@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ServiceType;
+namespace NfseLondrina\ServiceType;
 
 use SoapFault;
 use WsdlToPhp\PackageBase\AbstractSoapClientBase;
@@ -20,10 +20,10 @@ class Cancelar extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::getSoapClient()
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \StructType\TcDescricaoCancelaNota $descricaoCancelaNota
+     * @param \NfseLondrina\StructType\TcDescricaoCancelaNota $descricaoCancelaNota
      * @return array|bool
      */
-    public function CancelarNota(\StructType\TcDescricaoCancelaNota $descricaoCancelaNota)
+    public function CancelarNota(\NfseLondrina\StructType\TcDescricaoCancelaNota $descricaoCancelaNota)
     {
         try {
             $this->setResult($resultCancelarNota = $this->getSoapClient()->__soapCall('CancelarNota', [

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -119,7 +119,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set ccm value
      * @param int $ccm
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setCcm(int $ccm): self
     {
@@ -142,7 +142,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set cnpj value
      * @param string $cnpj
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setCnpj(string $cnpj): self
     {
@@ -165,7 +165,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set cpf value
      * @param string $cpf
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setCpf(string $cpf): self
     {
@@ -188,7 +188,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set senha value
      * @param string $senha
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setSenha(string $senha): self
     {
@@ -211,7 +211,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set numero_rps value
      * @param int $numero_rps
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setNumero_rps(int $numero_rps): self
     {
@@ -234,7 +234,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set dia_rps value
      * @param int $dia_rps
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setDia_rps(int $dia_rps): self
     {
@@ -257,7 +257,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set mes_rps value
      * @param int $mes_rps
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setMes_rps(int $mes_rps): self
     {
@@ -280,7 +280,7 @@ class TcConsultarRpsServicoPrestadoEnvio extends AbstractStructBase
     /**
      * Set ano_rps value
      * @param int $ano_rps
-     * @return \StructType\TcConsultarRpsServicoPrestadoEnvio
+     * @return \NfseLondrina\StructType\TcConsultarRpsServicoPrestadoEnvio
      */
     public function setAno_rps(int $ano_rps): self
     {

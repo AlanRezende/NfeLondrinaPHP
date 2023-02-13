@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -18,13 +18,13 @@ class TcListaErrosAlertas extends AbstractStructBase
      * Meta information extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
-     * @var \StructType\TcEstruturaDescricaoErros[]
+     * @var \NfseLondrina\StructType\TcEstruturaDescricaoErros[]
      */
     protected ?array $item = null;
     /**
      * Constructor method for tcListaErrosAlertas
      * @uses TcListaErrosAlertas::setItem()
-     * @param \StructType\TcEstruturaDescricaoErros[] $item
+     * @param \NfseLondrina\StructType\TcEstruturaDescricaoErros[] $item
      */
     public function __construct(?array $item = null)
     {
@@ -33,7 +33,7 @@ class TcListaErrosAlertas extends AbstractStructBase
     }
     /**
      * Get item value
-     * @return \StructType\TcEstruturaDescricaoErros[]
+     * @return \NfseLondrina\StructType\TcEstruturaDescricaoErros[]
      */
     public function getItem(): ?array
     {
@@ -54,12 +54,12 @@ class TcListaErrosAlertas extends AbstractStructBase
         $invalidValues = [];
         foreach ($values as $tcListaErrosAlertasItemItem) {
             // validation for constraint: itemType
-            if (!$tcListaErrosAlertasItemItem instanceof \StructType\TcEstruturaDescricaoErros) {
+            if (!$tcListaErrosAlertasItemItem instanceof \NfseLondrina\StructType\TcEstruturaDescricaoErros) {
                 $invalidValues[] = is_object($tcListaErrosAlertasItemItem) ? get_class($tcListaErrosAlertasItemItem) : sprintf('%s(%s)', gettype($tcListaErrosAlertasItemItem), var_export($tcListaErrosAlertasItemItem, true));
             }
         }
         if (!empty($invalidValues)) {
-            $message = sprintf('The item property can only contain items of type \StructType\TcEstruturaDescricaoErros, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
+            $message = sprintf('The item property can only contain items of type \NfseLondrina\StructType\TcEstruturaDescricaoErros, %s given', is_object($invalidValues) ? get_class($invalidValues) : (is_array($invalidValues) ? implode(', ', $invalidValues) : gettype($invalidValues)));
         }
         unset($invalidValues);
         
@@ -68,8 +68,8 @@ class TcListaErrosAlertas extends AbstractStructBase
     /**
      * Set item value
      * @throws InvalidArgumentException
-     * @param \StructType\TcEstruturaDescricaoErros[] $item
-     * @return \StructType\TcListaErrosAlertas
+     * @param \NfseLondrina\StructType\TcEstruturaDescricaoErros[] $item
+     * @return \NfseLondrina\StructType\TcListaErrosAlertas
      */
     public function setItem(?array $item = null): self
     {
@@ -84,14 +84,14 @@ class TcListaErrosAlertas extends AbstractStructBase
     /**
      * Add item to item value
      * @throws InvalidArgumentException
-     * @param \StructType\TcEstruturaDescricaoErros $item
-     * @return \StructType\TcListaErrosAlertas
+     * @param \NfseLondrina\StructType\TcEstruturaDescricaoErros $item
+     * @return \NfseLondrina\StructType\TcListaErrosAlertas
      */
-    public function addToItem(\StructType\TcEstruturaDescricaoErros $item): self
+    public function addToItem(\NfseLondrina\StructType\TcEstruturaDescricaoErros $item): self
     {
         // validation for constraint: itemType
-        if (!$item instanceof \StructType\TcEstruturaDescricaoErros) {
-            throw new InvalidArgumentException(sprintf('The item property can only contain items of type \StructType\TcEstruturaDescricaoErros, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
+        if (!$item instanceof \NfseLondrina\StructType\TcEstruturaDescricaoErros) {
+            throw new InvalidArgumentException(sprintf('The item property can only contain items of type \NfseLondrina\StructType\TcEstruturaDescricaoErros, %s given', is_object($item) ? get_class($item) : (is_array($item) ? implode(', ', $item) : gettype($item))), __LINE__);
         }
         $this->item[] = $item;
         

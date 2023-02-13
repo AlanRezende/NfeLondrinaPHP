@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace StructType;
+namespace NfseLondrina\StructType;
 
 use InvalidArgumentException;
 use WsdlToPhp\PackageBase\AbstractStructBase;
@@ -75,7 +75,7 @@ class TcRetornoNota extends AbstractStructBase
     /**
      * Set Resultado value
      * @param int $resultado
-     * @return \StructType\TcRetornoNota
+     * @return \NfseLondrina\StructType\TcRetornoNota
      */
     public function setResultado(?int $resultado = null): self
     {
@@ -98,7 +98,7 @@ class TcRetornoNota extends AbstractStructBase
     /**
      * Set Nota value
      * @param int $nota
-     * @return \StructType\TcRetornoNota
+     * @return \NfseLondrina\StructType\TcRetornoNota
      */
     public function setNota(?int $nota = null): self
     {
@@ -121,7 +121,7 @@ class TcRetornoNota extends AbstractStructBase
     /**
      * Set autenticidade value
      * @param string $autenticidade
-     * @return \StructType\TcRetornoNota
+     * @return \NfseLondrina\StructType\TcRetornoNota
      */
     public function setAutenticidade(?string $autenticidade = null): self
     {
@@ -144,7 +144,7 @@ class TcRetornoNota extends AbstractStructBase
     /**
      * Set LinkImpressao value
      * @param string $linkImpressao
-     * @return \StructType\TcRetornoNota
+     * @return \NfseLondrina\StructType\TcRetornoNota
      */
     public function setLinkImpressao(?string $linkImpressao = null): self
     {
