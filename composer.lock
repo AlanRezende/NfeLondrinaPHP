@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce4a4a5e42264e6d6ef8a29f57fdc03b",
+    "content-hash": "5fb281409f77a2760ab29a32be0f5a81",
     "packages": [
         {
             "name": "wsdltophp/packagebase",
@@ -113,5 +113,5 @@
         "ext-soap": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "1.1.0"
 }
