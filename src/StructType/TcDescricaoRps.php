@@ -89,56 +89,56 @@ class TcDescricaoRps extends AbstractStructBase
      * The ir
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $ir;
+    protected ?string $ir = null;
     /**
      * The pis
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $pis;
+    protected ?string $pis = null;
     /**
      * The cofins
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $cofins;
+    protected ?string $cofins = null;
     /**
      * The csll
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $csll;
+    protected ?string $csll = null;
     /**
      * The inss
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $inss;
+    protected ?string $inss = null;
     /**
      * The retencao_iss
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $retencao_iss;
+    protected ?string $retencao_iss = null;
     /**
      * The descricaoNF
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
      * - minOccurs: 1
-     * @var string
+     * @var string|null
      */
     protected string $descricaoNF;
     /**
@@ -164,29 +164,29 @@ class TcDescricaoRps extends AbstractStructBase
      * - minOccurs: 1
      * @var string
      */
-    protected string $tomador_email;
+    protected ?string $tomador_email = null;
     /**
      * The tomador_ie
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $tomador_ie;
+    protected ?string $tomador_ie = null;
     /**
      * The tomador_im
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $tomador_im;
+    protected ?string $tomador_im = null;
     /**
      * The tomador_razao
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
     protected string $tomador_razao;
     /**
@@ -244,23 +244,23 @@ class TcDescricaoRps extends AbstractStructBase
      * - minOccurs: 1
      * @var string
      */
-    protected string $tomador_fone;
+    protected ?string $tomador_fone = null;
     /**
      * The tomador_ramal
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $tomador_ramal;
+    protected ?string $tomador_ramal = null;
     /**
      * The tomador_fax
      * Meta information extracted from the WSDL
      * - maxOccurs: 1
-     * - minOccurs: 1
-     * @var string
+     * - minOccurs: 0
+     * @var string|null
      */
-    protected string $tomador_fax;
+    protected ?string $tomador_fax = null;
     /**
      * The codigo_obra
      * Meta information extracted from the WSDL
@@ -516,7 +516,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $obra_local_quadra
      * @param string $obra_local_bairro
      */
-    public function __construct(int $ccm, string $cnpj, string $cpf, string $senha, string $aliquota, int $servico, string $situacao, string $valor, string $base, string $ir, string $pis, string $cofins, string $csll, string $inss, string $retencao_iss, string $descricaoNF, int $tomador_tipo, string $tomador_cnpj, string $tomador_email, string $tomador_ie, string $tomador_im, string $tomador_razao, string $tomador_endereco, string $tomador_numero, string $tomador_complemento, string $tomador_bairro, string $tomador_CEP, string $tomador_cod_cidade, string $tomador_fone, string $tomador_ramal, string $tomador_fax, ?string $codigo_obra = null, ?string $obra_art = null, ?int $incentivo_fiscal = null, ?string $cod_municipio_prestacao_servico = null, ?string $cod_pais_prestacao_servico = null, ?string $cod_municipio_incidencia = null, ?int $rps_num = null, ?string $rps_serie = null, ?int $rps_tipo = null, ?int $rps_dia = null, ?int $rps_mes = null, ?int $rps_ano = null, ?int $nfse_substituida = null, ?int $rps_substituido = null, ?int $obra_alvara_numero = null, ?int $obra_alvara_ano = null, ?string $obra_local_lote = null, ?string $obra_local_quadra = null, ?string $obra_local_bairro = null)
+    public function __construct(int $ccm, string $cnpj, string $cpf, string $senha, string $aliquota, int $servico, string $situacao, string $valor, string $base, ?string $ir, ?string $pis, ?string $cofins, ?string $csll, ?string $inss, ?string $retencao_iss, string $descricaoNF, int $tomador_tipo, string $tomador_cnpj, ?string $tomador_email, ?string $tomador_ie, ?string $tomador_im, string $tomador_razao, string $tomador_endereco, string $tomador_numero, string $tomador_complemento, string $tomador_bairro, string $tomador_CEP, string $tomador_cod_cidade, ?string $tomador_fone, ?string $tomador_ramal, ?string $tomador_fax, ?string $codigo_obra = null, ?string $obra_art = null, ?int $incentivo_fiscal = null, ?string $cod_municipio_prestacao_servico = null, ?string $cod_pais_prestacao_servico = null, ?string $cod_municipio_incidencia = null, ?int $rps_num = null, ?string $rps_serie = null, ?int $rps_tipo = null, ?int $rps_dia = null, ?int $rps_mes = null, ?int $rps_ano = null, ?int $nfse_substituida = null, ?int $rps_substituido = null, ?int $obra_alvara_numero = null, ?int $obra_alvara_ano = null, ?string $obra_local_lote = null, ?string $obra_local_quadra = null, ?string $obra_local_bairro = null)
     {
         $this
             ->setCcm($ccm)
@@ -779,9 +779,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get ir value
-     * @return string
+     * @return string|null
      */
-    public function getIr(): string
+    public function getIr(): ?string
     {
         return $this->ir;
     }
@@ -790,7 +790,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $ir
      * @return \StructType\TcDescricaoRps
      */
-    public function setIr(string $ir): self
+    public function setIr(?string $ir = null): self
     {
         // validation for constraint: string
         if (!is_null($ir) && !is_string($ir)) {
@@ -802,18 +802,18 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get pis value
-     * @return string
+     * @return string|null
      */
-    public function getPis(): string
+    public function getPis(): ?string
     {
         return $this->pis;
     }
     /**
      * Set pis value
-     * @param string $pis
+     * @param string|null $pis
      * @return \StructType\TcDescricaoRps
      */
-    public function setPis(string $pis): self
+    public function setPis(?string $pis = null): self
     {
         // validation for constraint: string
         if (!is_null($pis) && !is_string($pis)) {
@@ -825,9 +825,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get cofins value
-     * @return string
+     * @return string|null
      */
-    public function getCofins(): string
+    public function getCofins(): ?string
     {
         return $this->cofins;
     }
@@ -836,7 +836,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $cofins
      * @return \StructType\TcDescricaoRps
      */
-    public function setCofins(string $cofins): self
+    public function setCofins(?string $cofins = null): self
     {
         // validation for constraint: string
         if (!is_null($cofins) && !is_string($cofins)) {
@@ -848,9 +848,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get csll value
-     * @return string
+     * @return string|null
      */
-    public function getCsll(): string
+    public function getCsll(): ?string
     {
         return $this->csll;
     }
@@ -859,7 +859,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $csll
      * @return \StructType\TcDescricaoRps
      */
-    public function setCsll(string $csll): self
+    public function setCsll(?string $csll = null): self
     {
         // validation for constraint: string
         if (!is_null($csll) && !is_string($csll)) {
@@ -871,9 +871,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get inss value
-     * @return string
+     * @return string|null
      */
-    public function getInss(): string
+    public function getInss(): ?string
     {
         return $this->inss;
     }
@@ -882,7 +882,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $inss
      * @return \StructType\TcDescricaoRps
      */
-    public function setInss(string $inss): self
+    public function setInss(?string $inss = null): self
     {
         // validation for constraint: string
         if (!is_null($inss) && !is_string($inss)) {
@@ -894,9 +894,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get retencao_iss value
-     * @return string
+     * @return string|null
      */
-    public function getRetencao_iss(): string
+    public function getRetencao_iss(): ?string
     {
         return $this->retencao_iss;
     }
@@ -905,7 +905,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $retencao_iss
      * @return \StructType\TcDescricaoRps
      */
-    public function setRetencao_iss(string $retencao_iss): self
+    public function setRetencao_iss(?string $retencao_iss = null): self
     {
         // validation for constraint: string
         if (!is_null($retencao_iss) && !is_string($retencao_iss)) {
@@ -986,9 +986,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_email value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_email(): string
+    public function getTomador_email(): ?string
     {
         return $this->tomador_email;
     }
@@ -997,7 +997,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_email
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_email(string $tomador_email): self
+    public function setTomador_email(?string $tomador_email = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_email) && !is_string($tomador_email)) {
@@ -1009,9 +1009,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_ie value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_ie(): string
+    public function getTomador_ie(): ?string
     {
         return $this->tomador_ie;
     }
@@ -1020,7 +1020,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_ie
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_ie(string $tomador_ie): self
+    public function setTomador_ie(?string $tomador_ie = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_ie) && !is_string($tomador_ie)) {
@@ -1032,9 +1032,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_im value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_im(): string
+    public function getTomador_im(): ?string
     {
         return $this->tomador_im;
     }
@@ -1043,7 +1043,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_im
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_im(string $tomador_im): self
+    public function setTomador_im(?string $tomador_im = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_im) && !is_string($tomador_im)) {
@@ -1216,9 +1216,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_fone value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_fone(): string
+    public function getTomador_fone(): ?string
     {
         return $this->tomador_fone;
     }
@@ -1227,7 +1227,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_fone
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_fone(string $tomador_fone): self
+    public function setTomador_fone(?string $tomador_fone = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_fone) && !is_string($tomador_fone)) {
@@ -1239,9 +1239,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_ramal value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_ramal(): string
+    public function getTomador_ramal(): ?string
     {
         return $this->tomador_ramal;
     }
@@ -1250,7 +1250,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_ramal
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_ramal(string $tomador_ramal): self
+    public function setTomador_ramal(?string $tomador_ramal = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_ramal) && !is_string($tomador_ramal)) {
@@ -1262,9 +1262,9 @@ class TcDescricaoRps extends AbstractStructBase
     }
     /**
      * Get tomador_fax value
-     * @return string
+     * @return string|null
      */
-    public function getTomador_fax(): string
+    public function getTomador_fax(): ?string
     {
         return $this->tomador_fax;
     }
@@ -1273,7 +1273,7 @@ class TcDescricaoRps extends AbstractStructBase
      * @param string $tomador_fax
      * @return \StructType\TcDescricaoRps
      */
-    public function setTomador_fax(string $tomador_fax): self
+    public function setTomador_fax(?string $tomador_fax = null): self
     {
         // validation for constraint: string
         if (!is_null($tomador_fax) && !is_string($tomador_fax)) {
